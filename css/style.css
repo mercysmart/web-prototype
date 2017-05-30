@@ -86,7 +86,6 @@ header .navbar {
 }
 .navbar-default .navbar-brand{
 color: #D81265;
-background: rgb(245, 138, 46);
 height: 114px;
 position: absolute;
 top: -28px;
@@ -1462,7 +1461,6 @@ article img.pull-right, article .align-right{
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
-  background-color: rgb(245, 138, 46);
 }
 .features .media.service-box {
   /* margin: 0px 0 25px; */
