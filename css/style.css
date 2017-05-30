@@ -935,6 +935,14 @@ border-radius: 0;padding: 12px 22px;border: 0;}
 	background:#fff;
 }
 
+.btn-theme-invert {
+	color: rgba(245, 138, 46, 1);
+	background: #fff;
+	border: 0;
+	padding: 12px 30px;
+	font-weight: bold;
+}
+
 /* --- list style --- */
 
 ul.general {
@@ -1271,7 +1279,7 @@ footer .widget .flickr_badge img {
 footer{
 	padding:50px 0 0 0;
 	color:#f8f8f8;
-	background: #2D2D2D;
+	background: #fff;
 }
 
 footer a {
