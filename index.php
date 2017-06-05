@@ -1,51 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>MercySmart Academy Community</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
-
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
+    <?php include 'structure/head.php'; ?>
 </head>
 <body>
 <div id="wrapper" class="home-page">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/mercy.png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header>
-	<!-- end header -->
+	<?php include 'structure/navbar.php'; ?>
 	<section id="banner">
 
 	<!-- Slider -->
@@ -59,14 +19,14 @@
 					<a href="#" class="btn btn-theme">Read More</a>
                 </div>
               </li>
-              <li>
+              <!-- <li>
                 <img src="img/slides/mercysmart3.png" alt="" />
                 <div class="flex-caption container">
                     <h3>MercySmart Academy Community</h3>
 					<p>Sekolah jadi FUN bukan beban</p>
 					<a href="#" class="btn btn-theme">Read More</a>
                 </div>
-              </li>
+              </li> -->
             </ul>
         </div>
 	<!-- end slider -->
@@ -76,7 +36,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h1 class="aligncenter">Kabar Baik</h1>Mungkin belum banyak yang tahu jika sejak Tahun 2000, Pemerintah Indonesia telah sadar bahwa pendidikan untuk seluruh rakyatnya, TIDAK DAPAT dipenuhi oleh lembaga pendidikan sekolah formal --seperti yang seumur hidup kita tahu.<br><br>
+				<div>
+                    <h1 class="aligncenter">Kabar Baik</h1>
+                    <center><div style="width:10%"><hr class="hr-thicker"></div></center>
+                    <br>
+                    Mungkin belum banyak yang tahu jika sejak Tahun 2000, Pemerintah Indonesia telah sadar bahwa pendidikan untuk seluruh rakyatnya, TIDAK DAPAT dipenuhi oleh lembaga pendidikan sekolah formal --seperti yang seumur hidup kita tahu.<br><br>
 
 Maka, Kementerian Pendidikan Nasional membuka jalur nonformal, berupa HomeSchooling dan Pusat Kegiatan Belajar Masyarakat (PKBM) untuk menampung siswa yang TIDAK BETAH bersekolah formal, karena berbagai hambatan (PR banyak, Guru galak, Uang Sekolah mahal, Teman-teman tawuran melulu, Seks Bebas, dan seterusnya)<br>
 
@@ -140,8 +104,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
                     </div><!--/.col-md-4-->
 
 
-                        </div>
-                    </div><!--/.col-md-4-->
+                    </div>
                 </div>
             </div>
 
@@ -159,7 +122,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
 		</div>
 		<div class="row">
 							<div class="col-md-6">
-								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<div id="myCarousel" class="carousel slide" data-ride="carousel" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;">
 
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
@@ -199,6 +162,32 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
 	</section>
 	<section id='events'>
 	<div class="container">
+    <center>
+        <h2>Video karya MercySmarters</h2>
+        <div style="width:10%"><hr class="hr-thicker"></div>
+        <br><br>
+    </center>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Children VS Drugs</h3>
+            <br>
+            <div style="position:relative;height:0;padding-bottom:74.84%"><iframe src="https://www.youtube.com/embed/PCjU92mpXcg?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="481" height="360" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-md-4">
+            <h3>Prestasi MercySmarters: Andre Christoga</h3>
+            <div style="position:relative;height:0;padding-bottom:74.89%"><iframe src="https://www.youtube.com/embed/W3HrqpT12Ag?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="481" height="360" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-md-4">
+            <h3>Narkoba: Neraka atau Penjara</h3>
+            <div style="position:relative;height:0;padding-bottom:75%"><iframe src="https://www.youtube.com/embed/3Y-e6cUBs-o?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="480" height="360" frameborder="0" allowfullscreen></iframe></div>            
+        </div>
+    </div>
+    <br><br>
+    <center>
+        <h2>Wawancara di KompasTV</h2>
+        <div style="width:10%"><hr class="hr-thicker"></div>
+        <br><br>
+    </center>
 	<div class="row">
                 <div class="col-md-4">
                     <h3>Part 1</h3>
@@ -220,7 +209,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
                 <br><br>
                 <div class="row" align="center">
                     <div class="col-md-12">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.11453121608!2d106.89131276375986!3d-6.115280764432134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1feaf1107bd3%3A0xd5a16ccb0b16baf3!2sJl.+Kebon+Bawang+VI+No.35%2C+Kb.+Bawang%2C+Tj.+Priok%2C+Kota+Jkt+Utara%2C+Daerah+Khusus+Ibukota+Jakarta+14320!5e0!3m2!1sen!2sid!4v1496154694749" width="70%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.11453121608!2d106.89131276375986!3d-6.115280764432134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1feaf1107bd3%3A0xd5a16ccb0b16baf3!2sJl.+Kebon+Bawang+VI+No.35%2C+Kb.+Bawang%2C+Tj.+Priok%2C+Kota+Jkt+Utara%2C+Daerah+Khusus+Ibukota+Jakarta+14320!5e0!3m2!1sen!2sid!4v1496154694749" width="70%" height="400" frameborder="0" id="maps" style="border:0;" allowfullscreen></iframe>
                     </div>
                 </div>
             <!-- <div class="row">
@@ -244,30 +233,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
                 </div>
             </div> -->
     </section>
-	<footer>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Genius Educational 2015 All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
+	<?php include 'structure/footer.php'; ?>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
