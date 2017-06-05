@@ -127,15 +127,11 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                       <div class="item active">
-                                        <img src="img/ms.png" style="width:100%;">
+                                        <img src="img/activity/1.jpeg" style="width:100%;">
                                       </div>
 
                                       <div class="item">
-                                        <img src="img/ms-a.png"tyle="width:100%;">
-                                      </div>
-
-                                      <div class="item">
-                                        <img src="img/ms-b.png" style="width:100%;">
+                                        <img src="img/activity/2.png" style="width:100%;">
                                       </div>
                                     </div>
                                   </div>

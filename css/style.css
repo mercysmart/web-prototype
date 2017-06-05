@@ -1835,3 +1835,9 @@ iframe {
     background-color: #eee; /* Modern Browsers */
 }
 
+.tuff-black-guy {
+	border: none;
+	height: 5px;
+	color: #000;
+	background-color: #000;
+}
