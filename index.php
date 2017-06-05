@@ -116,7 +116,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Aktivitas Terbaru </h2> Sekolah itu harusnya FUN bukan beban</div>
+				<div class="aligncenter"><h2 class="aligncenter">Aktivitas Terbaru </h2></div>
 				<br/>
 			</div>
 		</div>
@@ -127,27 +127,17 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                       <div class="item active">
-                                        <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Los Angeles" style="width:100%;">
+                                        <img src="img/ms.png" style="width:100%;">
                                       </div>
 
                                       <div class="item">
-                                        <img src="https://www.w3schools.com/bootstrap/chicago.jpg" alt="Chicago" style="width:100%;">
+                                        <img src="img/ms-a.png"tyle="width:100%;">
                                       </div>
-                                    
+
                                       <div class="item">
-                                        <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New york" style="width:100%;">
+                                        <img src="img/ms-b.png" style="width:100%;">
                                       </div>
                                     </div>
-
-                                    <!-- Left and right controls -->
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                      <span class="glyphicon glyphicon-chevron-left"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                      <span class="glyphicon glyphicon-chevron-right"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
                                   </div>
 							</div>
 							<div class="col-md-6">
@@ -179,7 +169,7 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
         </div>
         <div class="col-md-4">
             <h3>Narkoba: Neraka atau Penjara</h3>
-            <div style="position:relative;height:0;padding-bottom:75%"><iframe src="https://www.youtube.com/embed/3Y-e6cUBs-o?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="480" height="360" frameborder="0" allowfullscreen></iframe></div>            
+            <div style="position:relative;height:0;padding-bottom:75%"><iframe src="https://www.youtube.com/embed/3Y-e6cUBs-o?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="480" height="360" frameborder="0" allowfullscreen></iframe></div>
         </div>
     </div>
     <br><br>
@@ -191,15 +181,15 @@ Semua siswa MercySmart terdaftar RESMI di Kementerian Pendidikan Nasional dan be
 	<div class="row">
                 <div class="col-md-4">
                     <h3>Part 1</h3>
-                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>                    
+                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>
                 </div>
                 <div class="col-md-4">
                     <h3>Part 2</h3>
-                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>                    
+                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>
                 </div>
                 <div class="col-md-4">
                     <h3>Part 3</h3>
-                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>                    
+                    <div style="position:relative;height:0;padding-bottom:74.74%"><iframe src="https://www.youtube.com/embed/4WEgLOHOVmQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="482" height="360" frameborder="0" allowfullscreen></iframe></div>
                 </div>
             </div>
 	</div>
